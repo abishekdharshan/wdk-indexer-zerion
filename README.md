@@ -142,5 +142,5 @@ Apache 2.0 — matches the rest of the WDK ecosystem.
 ## Contact
 
 - Zerion API docs: <https://developers.zerion.io>
-- Issues: <https://github.com/zeriontech/wdk-indexer-zerion/issues>
+- Issues: <https://github.com/abishekdharshan/wdk-indexer-zerion/issues>
 - Partnerships: api@zerion.io
