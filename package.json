@@ -1,0 +1,56 @@
+{
+  "name": "@zerion/wdk-indexer-zerion",
+  "version": "0.1.0",
+  "description": "Zerion API indexer for the Tether Wallet Development Kit (WDK). Provides interpreted multi-chain portfolio, positions, transactions, NFTs, and PnL for any WDK wallet account.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "example:portfolio": "node examples/portfolio-demo.js"
+  },
+  "keywords": [
+    "wdk",
+    "tether",
+    "zerion",
+    "wallet",
+    "indexer",
+    "portfolio",
+    "defi",
+    "multi-chain"
+  ],
+  "author": "Zerion",
+  "license": "Apache-2.0",
+  "homepage": "https://developers.zerion.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeriontech/wdk-indexer-zerion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zeriontech/wdk-indexer-zerion/issues"
+  },
+  "peerDependencies": {
+    "@tetherto/wdk": "*",
+    "@tetherto/wdk-wallet-evm": "*"
+  },
+  "peerDependenciesMeta": {
+    "@tetherto/wdk": {
+      "optional": true
+    },
+    "@tetherto/wdk-wallet-evm": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
